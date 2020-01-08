@@ -1,0 +1,2 @@
+# algorithm
+CodeSquad_algorithm
