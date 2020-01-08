@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // 1. 내장되어있는 함수 이용해서 단순 역변경
+    var name = "코드스쿼드";
+    var nameReverse = name.split("").reverse().join("");
+    console.log(name + "reverse->" + nameReverse);
+
+
+    // 2.반복문 돌면서 뒤에있는 00은 거르면서 역변경
+    let input = "10300";
+    let result = [];
+
+    for (let i = input.length - 1; i >= 0; i--) {
+        result.push(input[i]);
+    }
+
+    // 3. 뒤에있는 00을 애초에 제거하고 역변경
+    let input = "10300";
+    let result = [];
+    let index = input.length - 1; // 4 -> 2
+
+    for (let i = index; i >= 0; i--) {
+        if (input[i] !== '0') { //뒤어서부터 추적하던 인덱스 i의 값이 0이 아닌 상황이오
+            index = i; //index는 i로 바뀌고 이때의 for문은 종료된다.
+            break;
+        }
+    }
+    for (let i = index; i >= 0; i--) { //변경된 index 에서부터 for문 돌면서 result배열에 push
+        result.push(input[i]);
+    }
+
+    console.log(result);
+</script>
+</body>
+</html>
