@@ -2,9 +2,15 @@ function solution(array, commands) {
     let result = [];
 
     for(let i = 0; i < commands.length; i++) {
-        let arraySlice = array.slice(commands[i][0] - 1,commands[i][1]);
-        result.push(arraySlice.sort()[commands[i][2] - 1]);
+        const startIndex = commands[i][0] - 1;
+        const endIndex = commands[i][1];
+        const idx = commands[i][2] - 1;
+
+        const arraySlice = array.slice(startIndex, endIndex).sort();
+
+        result.push(arraySlice[idx]);
     }
+
     return result;
 }
 
