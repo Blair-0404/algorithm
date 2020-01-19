@@ -5,16 +5,49 @@
 
 // 1.버블정렬
 function bubbleSort(array) {
-    for (let i = array.length; i > 2; i--) {
-        for (let j = 0; j < i - 1; j++) {
-            if (array[j] > array[j + 1]) {
+    // for (let i = array.length; i > 2; i--) {
+    //     for (let j = 0; j < i - 1; j++) {
+    //         if (array[j] > array[j + 1]) {
+    //             let tmp = array[j];
+    //             array[j] = array[j + 1];
+    //             array[j + 1] = tmp;
+    //         }
+    //     }
+    // }
+    for (let i = 0; i < array.length - 1; i++) {
+        for (let j = array.length - 1; j > i; j--) {
+            if (array[j] < array[j - 1]) {
                 let tmp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = tmp;
+                array[j] = array[j - 1];
+                array[j - 1] = tmp;
             }
         }
     }
-    return array
+    return array;
+}
+
+// 2. 선택정렬
+function chooseSort(inputArray) {
+    // for (let i = inputArray.length; i > 1; i--) {
+    //     let minNumber = inputArray[inputArray.length - i];
+    //     for (let j = 0; j < i; j++) {
+    //         if (minNumber > inputArray[j + 1]) {
+    //             minNumber = inputArray;
+    //         }
+    //     }
+    //     let tmp =
+    // }
+    for (let i = 0; i < inputArray.length - 1; i++) {
+        let minIndex = i;
+        for (let j = i + 1; j < inputArray.length; j++) {
+            if (inputArray[minIndex] > inputArray[j]) {
+                minIndex = j;
+            }
+        }
+        let tmp = inputArray[i];
+        inputArray[i] = inputArray[minIndex];
+        inputArray[minIndex] = tmp;
+    }
 }
 
 // 2. 인덱스가 모두 0으로 들어있는 배열을 만들고 각 인덱스에 number counting을 해준 뒤 count수만큼 인덱스 숫자로 변환하기
