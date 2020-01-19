@@ -3,7 +3,7 @@
 // 1.버블정렬 2.삽입정렬 3.선택정렬 *4.퀵정렬* 5.머지정령 6.힙정렬
 
 
-// 1.버블정렬
+// 버블정렬
 function bubbleSort(array) {
     // for (let i = array.length; i > 2; i--) {
     //     for (let j = 0; j < i - 1; j++) {
@@ -26,7 +26,7 @@ function bubbleSort(array) {
     return array;
 }
 
-// 2. 선택정렬
+// 선택정렬
 function chooseSort(inputArray) {
     // for (let i = inputArray.length; i > 1; i--) {
     //     let minNumber = inputArray[inputArray.length - i];
@@ -50,7 +50,7 @@ function chooseSort(inputArray) {
     }
 }
 
-// 2. 인덱스가 모두 0으로 들어있는 배열을 만들고 각 인덱스에 number counting을 해준 뒤 count수만큼 인덱스 숫자로 변환하기
+// 인덱스가 모두 0으로 들어있는 배열을 만들고 각 인덱스에 number counting을 해준 뒤 count수만큼 인덱스 숫자로 변환하기
 function makeNumberSort(inputArray) { //인자 = [3, 5, 4, 0, 6, 1, 7, 8, 5, 10]
     let zeroArray = [];
     let resultArray = [];
