@@ -20,4 +20,5 @@
     * [코드-kthNumber.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/kthNumber.js)
 * [백준 - N개의 수 정렬](https://www.acmicpc.net/problem/10989)
     * 1.버블정렬 2.삽입정렬 3.선택정렬 *4.퀵정렬* 5.머지정령 6.힙정렬 구현해보기
-    * [코드-NumbersSort.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/NumbersSort.js)
+    * [버블정렬 코드-NumbersSort.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/NumbersSort.js)
+    * [다른방법으로 구현한 코드-NNumberSort2.js]()
