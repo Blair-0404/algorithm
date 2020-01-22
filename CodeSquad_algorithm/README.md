@@ -29,8 +29,8 @@
 * 해시에 대해 더 공부해 보자
 * [추천강좌 (회원가입 필요)](https://www.edwith.org/introalgorithm/lecture/26426/)
 ### 문제
-* [hyppyNumber, unhappyNumber구분](https://leetcode.com/problems/happy-number/)
-    * [코드-happuNumber.js]()
-* [findsingleNumber](https://leetcode.com/problems/single-number/)
-    * [코드-findSingleNumber.js]()
+* [LeetCode-hyppyNumber, unhappyNumber구분](https://leetcode.com/problems/happy-number/)
+    * [코드-happuNumber.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/hyppyNumber.js)
+* [LeetCode-findsingleNumber](https://leetcode.com/problems/single-number/)
+    * [코드-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/findsingleNumber.js)
     
