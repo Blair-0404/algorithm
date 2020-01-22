@@ -27,7 +27,7 @@ function bubbleSort(array) {
 }
 
 // 선택정렬
-function chooseSort(inputArray) {
+function chooseSort(inputArray) {4
     // for (let i = inputArray.length; i > 1; i--) {
     //     let minNumber = inputArray[inputArray.length - i];
     //     for (let j = 0; j < i; j++) {
@@ -49,6 +49,7 @@ function chooseSort(inputArray) {
         inputArray[minIndex] = tmp;
     }
 }
+
 
 // 인덱스가 모두 0으로 들어있는 배열을 만들고 각 인덱스에 number counting을 해준 뒤 count수만큼 인덱스 숫자로 변환하기
 function makeNumberSort(inputArray) { //인자 = [3, 5, 4, 0, 6, 1, 7, 8, 5, 10]
