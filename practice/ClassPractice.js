@@ -1,4 +1,4 @@
-class Car {
+class ClassPractice {
     constructor(brand, color, maxVelocity) {
         this.brand = brand;
         this.color = color;
@@ -62,9 +62,9 @@ class Car {
     }
 }
 
-const abante =  new Car('abante', 'white', 30);
-const sonata =  new Car('sonata', 'silver', 50);
-const genesis =  new Car('genesis', 'black', 100);
+const abante =  new ClassPractice('abante', 'white', 30);
+const sonata =  new ClassPractice('sonata', 'silver', 50);
+const genesis =  new ClassPractice('genesis', 'black', 100);
 
 abante.run()
 // abante.run()
