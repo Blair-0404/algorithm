@@ -11,7 +11,7 @@
     * [코드-countPYnumbers.js]()
      
 * [프로그래머스 - 나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
-    * [코드-zeroretOfDivision.js]()
+    * [코드-zeroretOfDivision.js](https://github.com/Rachel4858/algorithm/blob/master/Progorammers/zeroretOfdivision.js)
 
 ## Level2
 * [프로그래머스 - 위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
