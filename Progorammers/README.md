@@ -14,6 +14,6 @@
 * [프로그래머스 - 위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
     * [코드-camouflage.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/camouflage.js)
 * [프로그래머스 - 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
-    * [코드-findSamePrefix.js]()
+    * [코드-findSamePrefix.js](https://github.com/Rachel4858/algorithm/blob/master/Progorammers/findSamePrefix.js)
 * [프로그래머스 - 베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
-    * [코드-bestAlbum.js]()
+    * [코드-bestAlbum.js](https://github.com/Rachel4858/algorithm/blob/master/Progorammers/bestAlbum.js)
