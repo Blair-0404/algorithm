@@ -39,6 +39,30 @@
     }
 
     console.log(result);
+
+
+
+    // 20200125 recoding
+    function printReverseInteger(input) {
+        let inputArray = Array.from(input.toString());
+        let inputArrayLength = inputArray.length - 1;
+        let reverseInput = [];
+        let tmp = [];
+
+        if (inputArray[0] === '-') {
+            tmp = inputArray.splice(0, 1);
+        }
+
+        for (let i = inputArrayLength - 1; i >= 0; i--) {
+            if (inputArray[i] === '0' && reverseInput.length === 0) {
+                continue;
+            } else {
+                reverseInput.push(inputArray[i]);
+            }
+        }
+        return parseInt(tmp.concat(reverseInput).join(''));
+    }
+
 </script>
 </body>
 </html>
