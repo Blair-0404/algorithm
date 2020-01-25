@@ -12,7 +12,7 @@
     // 1. 내장되어있는 함수 이용해서 단순 역변경
     var name = "코드스쿼드";
     var nameReverse = name.split("").reverse().join("");
-    console.log(name + "reverse->" + nameReverse);
+    // console.log(name + "reverse->" + nameReverse);
 
 
     // 2.반복문 돌면서 뒤에있는 역변경
@@ -38,11 +38,13 @@
         result.push(input[i]);
     }
 
-    console.log(result);
+    // console.log(result);
 
 
 
     // 20200125 recoding
+    // 1.-를 담을 tmp 배열생성 , 뒤의0을제외한 나머지숫자를 역으로 받을배열 생성
+    // 2.위에서 만든 두개의 배열을 합쳐서 parseInt :>
     function printReverseInteger(input) {
         let inputArray = Array.from(input.toString());
         let inputArrayLength = inputArray.length - 1;
@@ -63,6 +65,10 @@
         return parseInt(tmp.concat(reverseInput).join(''));
     }
 
+    const inputA = -3100;
+    const inputB = 4120;
+    console.log(printReverseInteger(inputA));
+    console.log(printReverseInteger(inputB));
 </script>
 </body>
 </html>
