@@ -1,15 +1,15 @@
 function makeBestAlbum(genres, plays) {
-    const genreAndPlaycountMap = new Map();
+    const genreAndPlayCountMap = new Map();
     const genreAndIdxListMap = new Map();
 
 // 키:장르별 값:누적재생수 Map 구현
 // ex. {'classic' -> 2500, 'pop' -> 1000}
     for (let i = 0; i < genres.length; i++) { // O(n)
-        if (genreAndPlaycountMap.has(genres[i])) {
-            let tempScore = genreAndPlaycountMap.get(genres[i]);
-            genreAndPlaycountMap.set(genres[i], tempScore + plays[i]);
+        if (genreAndPlayCountMap.has(genres[i])) {
+            let currentPlayCounts = genreAndPlayCountMap.get(genres[i]); // .get은 genres[i]의 value를 뽑아낸다!
+            genreAndPlayCountMap.set(genres[i], currentPlayCounts + plays[i]);
         } else {
-            genreAndPlaycountMap.set(genres[i], plays[i]);
+            genreAndPlayCountMap.set(genres[i], plays[i]);
         }
 
 // 키:장르별 값:인덱스들이 들어있는 배열 Map 구현
@@ -25,7 +25,7 @@ function makeBestAlbum(genres, plays) {
 
 // genreAndPlaycountMap을 배열로 변환-정렬 후 장르만 뽑기
 // [ ['classic', 2500], ['pop', 1000] ]  => ['classic', 'pop']
-    const sortedGenres = Array.from(genreAndPlaycountMap).sort((first, second) => { // O(nlogn)
+    const sortedGenres = Array.from(genreAndPlayCountMap).sort((first, second) => { // O(nlogn)
         return second[1] - first[1];
     }).map((value) => value[0]);
 
