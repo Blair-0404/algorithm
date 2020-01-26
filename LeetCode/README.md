@@ -2,7 +2,7 @@
 
 ## easy
 * [1. TwoSum](https://leetcode.com/problems/two-sum/submissions/)
-    * [코드-twoSum.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/twoSum.js)
+    * [코드-twoSum.js](https://github.com/Rachel4858/algorithm/blob/master/LeetCode/twoSum.js)
 * [202. Happy Number](https://leetcode.com/problems/happy-number/)
     * [코드-happuNumber.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/hyppyNumber.js)
 * [136. Single Number](https://leetcode.com/problems/single-number/)
