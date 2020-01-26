@@ -23,6 +23,8 @@
     * 1.버블정렬 2.삽입정렬 3.선택정렬 *4.퀵정렬* 5.머지정령 6.힙정렬 구현해보기
     * for문 코딩 주의 - i가 어떤역할을 하는지 주의하기
     * [코드-NumbersSort.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/NumbersSort.js)
+* [프로그래머스 - 큰수로 숫자조합 후 문자로 출력](https://programmers.co.kr/learn/courses/30/lessons/42746)
+    * [코드-maxNumber.js](https://github.com/Rachel4858/algorithm/blob/master/Progorammers/maxNumber.js)
 
 ## [20200122]
 ### 더 공부하기
@@ -35,3 +37,5 @@
     * [코드-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/findsingleNumber.js)
 * [프로그래머스 - 위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
     * [코드-camouflage.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/camouflage.js)
+* [프로그래머스 - 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
+    * [코드-findSamePrefix.js](https://github.com/Rachel4858/algorithm/blob/master/Progorammers/findSamePrefix.js)
