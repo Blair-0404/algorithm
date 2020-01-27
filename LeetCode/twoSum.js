@@ -1,20 +1,18 @@
-const givenNums = [2, 7, 49, 51];
-const target = 100;
+const givenNums = [3, 2, 4, 5, 51];
+const target = 6;
 
 function findTwoSum(givenNums,target) {
-    let result = [];
     let givenNumsMap = new Map();
-    givenNums.map((number, idx) => {
-        givenNumsMap.set(number, idx);
-    });
+    //  givenNums.forEach((number, idx) => {
+    //     givenNumsMap.set(number, idx);
+    // });
 
-    for(let i = 0; i < givenNumsMap.size; i++) {
+    for(let i = 0; i < givenNums.length; i++) {
         let tmp = target - givenNums[i];
         if(givenNumsMap.has(tmp)) {
-            result.push(givenNumsMap.get(givenNums[i]));
-            result.push(givenNumsMap.get(tmp));
-            return result;
+            return [givenNumsMap.get(tmp), i];
         }
+        givenNumsMap.set(givenNums[i], i);
     }
 }
 
