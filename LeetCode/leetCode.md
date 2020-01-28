@@ -17,3 +17,9 @@
     * [코드-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/findsingleNumber.js)
 * [202. Happy Number](https://leetcode.com/problems/happy-number/)
     * [코드-happuNumber.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/hyppyNumber.js)
+* [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+    * LinkedList
+    * [코드-reverseLinkedList.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/reverseLinkedList.js)
+* [349. Intersection of Two Arrays](https://leetcode.com/problems/reverse-linked-list/)
+    * HashSet
+    * [코드-intersectionOfTwoArrays.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/intersectionOfTwoArrays.js)
