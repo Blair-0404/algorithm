@@ -9,6 +9,8 @@
     * 더 구현해볼 것 -> 음수일때 양수로 변환해서 역변경
 * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
     * [코드-validParentheses.js](https://github.com/Rachel4858/algorithm/blob/master/LeetCode/validParentheses.js)
+* [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+    * [코드-mergeToSortedList.js](https://github.com/Rachel4858/algorithm/blob/master/LeetCode/mergeToSortedList.js)
 * [67. Add Binary](https://leetcode.com/problems/add-binary/)
     * [코드-addBinary.js, addBinary2.js](https://github.com/Rachel4858/algorithm/blob/master/LeetCode/addBinary.js)
 * [136. Single Number](https://leetcode.com/problems/single-number/)

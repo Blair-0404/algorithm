@@ -1,13 +1,13 @@
 const strA = "()[]{[]}";
 const strB = "{[]}";
 
-function validParentheses(bracketStr) {
+function validParentheses(s) {
     const bracketMap = new Map();
     bracketMap.set('(', ')');
     bracketMap.set('[', ']');
     bracketMap.set('{', '}');
 
-    let bracketArray = bracketStr.split(''); // ['(', ')', '[', '[', '{', '}']
+    let bracketArray = s.split(''); // ['(', ')', '[', '[', '{', '}']
     let tmp = [];
 
     for (let i = 0; i < bracketArray.length; i++) {
