@@ -1,5 +1,4 @@
-// const arr = [
-//     ['7'],             // arr[0]
+// arr = [
 //     ['A', 'B', 'C'],   // arr[1]
 //     ['B', 'D', '.'],   // arr[2]
 //     ['C', 'E', 'F'],   // arr[3]
@@ -7,8 +6,7 @@
 //     ['F', '.', 'G'],
 //     ['D', '.', '.'],
 //     ['G', '.', '.']    // arr[7]
-// ];
-
+//       ];
 
 function createTreeNode(arr) {
     const treeMap = new Map();
@@ -20,7 +18,6 @@ function createTreeNode(arr) {
         };
         treeMap.set(arr[i][0], valueObj);
     }
-
     return treeMap;
 }
 
@@ -35,9 +32,9 @@ function traversal(inputArr) {
 function preOrderTraversal(headKey, map) {
     const children = map.get(headKey);
 
-    let result = headKey;
-    if (children.left !== '.') result += preOrderTraversal(children.left, map);
-    if (children.right !== '.') result += preOrderTraversal(children.right, map);
+    let result = headKey; //루트
+    if (children.left !== '.') result += preOrderTraversal(children.left, map); //왼쪽
+    if (children.right !== '.') result += preOrderTraversal(children.right, map); //오른쪽
 
     return result;
 }
@@ -46,9 +43,9 @@ function inOrderTraversal(headKey, map) {
     const children = map.get(headKey);
 
     let result = '';
-    if (children.left !== '.') result += inOrderTraversal(children.left, map);
-    result += headKey;
-    if (children.right !== '.') result += inOrderTraversal(children.right, map);
+    if (children.left !== '.') result += inOrderTraversal(children.left, map); //왼쪽
+    result += headKey; // 루트
+    if (children.right !== '.') result += inOrderTraversal(children.right, map); // 오른쪽
 
     return result;
 }
@@ -57,12 +54,13 @@ function postOrderTraversal(headKey, map) {
     const children = map.get(headKey);
 
     let result = '';
-    if (children.left !== '.') result += postOrderTraversal(children.left, map);
-    if (children.right !== '.') result += postOrderTraversal(children.right, map);
-    result += headKey;
+    if (children.left !== '.') result += postOrderTraversal(children.left, map); // 왼쪽
+    if (children.right !== '.') result += postOrderTraversal(children.right, map); // 오른쪽
+    result += headKey; // 루트
 
     return result;
 }
+
 
 const readline = require('readline');
 
