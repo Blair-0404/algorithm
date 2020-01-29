@@ -39,3 +39,14 @@
     * [코드-camouflage.js](https://github.com/Rachel4858/algorithm/blob/master/CodeSquad_algorithm/camouflage.js)
 * [프로그래머스 - 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
     * [코드-findSamePrefix.js](https://github.com/Rachel4858/algorithm/blob/master/Progorammers/findSamePrefix.js)
+
+## [20200129]
+### 공부하고 정리하기
+* 이진 트리가 무엇인지 학습한다.
+* 이진 검색트리가 무엇인지 학습한다.
+* 트리의 순회에 대해 학습한다.
+* 힙이 무엇인지와 힙 정렬에 대해 학습한다.
+* [추천강좌 (회원가입 필요)](https://www.edwith.org/introalgorithm/lecture/26426/)
+### 문제
+* [1991. 트리순회](https://www.acmicpc.net/problem/1991)
+    * [코드-treeNode.js.js](
