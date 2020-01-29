@@ -40,16 +40,34 @@ function traversal(inputArr) {
     console.log(preOrderTraversal('A', map));
     console.log(inOrderTraversal('A', map));
     console.log(postOrderTraversal('A', map));
-    console.log(map);
+    console.log(preOrderTraversal2('A',map));
 }
 
-function preOrderTraversal(headKey, map) {
+function preOrderTraversal(headKey, map) { // 선순위 재귀
     const children = map.get(headKey);
 
     let result = headKey; //루트
     if (children.left !== '.') result += preOrderTraversal(children.left, map); //왼쪽
     if (children.right !== '.') result += preOrderTraversal(children.right, map); //오른쪽
 
+    return result;
+}
+
+function preOrderTraversal2(headKey, map) { // 선순위 반복문
+    const children = map.get(headKey);
+
+    let nodeStack = [];
+    nodeStack.push(headKey);
+    let result = '';
+    while (nodeStack.length) {
+        let node = nodeStack.pop();
+        result += node;
+
+        if (children.right)
+            nodeStack.push(children.right);
+        if (children.left)
+            nodeStack.push(children.left);
+    }
     return result;
 }
 
