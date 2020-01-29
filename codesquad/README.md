@@ -49,4 +49,4 @@
 * [추천강좌 (회원가입 필요)](https://www.edwith.org/introalgorithm/lecture/26426/)
 #### 문제
 * [1991. 트리순회](https://www.acmicpc.net/problem/1991)
-    * [file-treeNode.js.js](https://github.com/Rachel4858/algorithm/blob/master/baekjoon/treeNode.js)
+    * [file-treeNode.js](https://github.com/Rachel4858/algorithm/blob/master/baekjoon/treeNode.js)

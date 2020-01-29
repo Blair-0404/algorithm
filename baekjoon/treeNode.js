@@ -1,12 +1,25 @@
+// input 받으면 -> arr에 담기
 // arr = [
 //     ['A', 'B', 'C'],   // arr[1]
 //     ['B', 'D', '.'],   // arr[2]
 //     ['C', 'E', 'F'],   // arr[3]
-//     ['E', '.', '.'],
-//     ['F', '.', 'G'],
-//     ['D', '.', '.'],
+//     ['E', '.', '.'],       .
+//     ['F', '.', 'G'],       .
+//     ['D', '.', '.'],       .
 //     ['G', '.', '.']    // arr[7]
 //       ];
+
+// arr의 index들을 Map에 넣기 (key : 부모노드 , value : 왼,오 자식노드)
+// Map {
+//     'A' => { left: 'B', right: 'C' },
+//     'B' => { left: 'D', right: '.' },
+//     'C' => { left: 'E', right: 'F' },
+//     'E' => { left: '.', right: '.' },
+//     'F' => { left: '.', right: 'G' },
+//     'D' => { left: '.', right: '.' },
+//     'G' => { left: '.', right: '.' }
+// }
+
 
 function createTreeNode(arr) {
     const treeMap = new Map();
@@ -27,6 +40,7 @@ function traversal(inputArr) {
     console.log(preOrderTraversal('A', map));
     console.log(inOrderTraversal('A', map));
     console.log(postOrderTraversal('A', map));
+    console.log(map);
 }
 
 function preOrderTraversal(headKey, map) {
