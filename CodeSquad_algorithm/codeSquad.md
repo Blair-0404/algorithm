@@ -47,6 +47,6 @@
 * 트리의 순회에 대해 학습한다.
 * 힙이 무엇인지와 힙 정렬에 대해 학습한다.
 * [추천강좌 (회원가입 필요)](https://www.edwith.org/introalgorithm/lecture/26426/)
-###* 문제
+#### 문제
 * [1991. 트리순회](https://www.acmicpc.net/problem/1991)
     * [코드-treeNode.js.js](https://github.com/Rachel4858/algorithm/blob/master/Baekjoon/treeNode.js)
