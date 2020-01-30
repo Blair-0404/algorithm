@@ -19,10 +19,9 @@
     * [file-happyNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/happyNumber.js)
 * [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
     * LinkedList
-    * [file-reverseLinkedList.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/reverseLinkedList.js)
+    * [file-reverseLinkedList.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseLinkedList.js)
 * [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-    * [file-validAnagram.js]()
-
+    * [file-validAnagram.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseLinkedList.js)
 * [349. Intersection of Two Arrays](https://leetcode.com/problems/reverse-linked-list/)
     * HashSet
-    * [file-intersectionOfTwoArrays.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/intersectionOfTwoArrays.js)
+    * [file-intersectionOfTwoArrays.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/intersectionOfTwoArrays.js)
