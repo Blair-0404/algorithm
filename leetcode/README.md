@@ -21,7 +21,7 @@
     * LinkedList
     * [file-reverseLinkedList.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseLinkedList.js)
 * [204. Count Primes](https://leetcode.com/problems/count-primes/)
-    * 루트가 필요한경우 생각하
+    * 루트가 필요한경우 생각하기
     * [file-countPrimes.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/countPrimes.js)
 * [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
     * [file-validAnagram.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/validAnagram.js)
