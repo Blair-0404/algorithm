@@ -1,26 +1,27 @@
-// 실패한 풀이
-// function solution(arrangement) {
-//     let resultNum = 0;
-//     let ironBarCount = 0;
-//
-//     for (let i = 0; i < arrangement.length; i++) {
-//         if (arrangement[i] === '(') {
-//             ironBarCount += 1;
-//         } else if ((arrangement[i - 1] && arrangement[i - 2]) === '(') {
-//             ironBarCount -= 1;
-//             resultNum += ironBarCount;
-//         } else if ((arrangement[i - 1] === '(') && (arrangement[i - 2] === ')')) {
-//             ironBarCount -= 1;
-//         } else {
-//             resultNum += 1;
-//         }
-//     }
-//     return resultNum;
-// }
+// counting 이용
+function solution1(arrangement) {
+    let resultNum = 0;
+    let ironBarCount = 0;
+
+    for (let i = 0; i < arrangement.length; i++) {
+        if (arrangement[i] === '(') {
+            ironBarCount += 1;
+        } else {
+            ironBarCount -= 1;
+            if ((arrangement[i - 1]) === '(') {
+                resultNum += ironBarCount;
+            } else {
+                resultNum += 1;
+            }
+        }
+    }
+
+    return resultNum;
+}
 
 
-// 스택을 이용해서 풀었어야 한다.
-function solution(arrangement) {
+// 스택을 이용
+function solution2(arrangement) {
     let resultNum = 0;
     let stack = [];
     for (let i = 0; i < arrangement.length; i++) {
@@ -39,4 +40,4 @@ function solution(arrangement) {
 }
 
 
-console.log(solution('()(((()())(())()))(())'));
+console.log(solution1('()(((()())(())()))(())'));
