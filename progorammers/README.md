@@ -13,7 +13,7 @@
 ## Level 2
 * [42588 - 탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
     * 스택
-    * [file-top.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/top.js)
+    * [file-top.js](https://github.com/Rachel4858/algorithm/blob/master/progorammers/top.js)
 * [42585 - 쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
     * 스택
     * [file-ironBar.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/ironBar.js)
