@@ -8,7 +8,7 @@
     * [file-kthNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/kthNumber.js)
 * [42840 - 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
     * 완전탐색
-    * [file-exam.js]((https://github.com/Rachel4858/algorithm/blob/master/programmers/exam.js))
+    * [file-exam.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/exam.js)
 * [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
     * [file-countPYNumbers.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/countPYNumbers.js)
 * [프로그래머스 - 나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
