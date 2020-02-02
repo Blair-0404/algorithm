@@ -6,7 +6,7 @@
     * [file-findNotParticipant.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findNotParticipant.html)
 * [42748 - k번째 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42748)
     * [file-kthNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/kthNumber.js)
-* [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
+* [42840 - 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
     * 완전탐색
     * [file-exam.js]((https://github.com/Rachel4858/algorithm/blob/master/programmers/exam.js))
 * [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
@@ -28,6 +28,9 @@
     * [file-findSamePrefix.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/findSamePrefix.js)
 * [프로그래머스 - 큰수로 숫자조합 후 문자로 출력](https://programmers.co.kr/learn/courses/30/lessons/42746)
     * [file-maxNumber.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/maxNumber.js)
+* [42839 - 소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
+    * 완전탐색
+    * [file-findPrime.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/findPrime.js)
 
 
 ## Level 3
