@@ -1,5 +1,5 @@
 // 완전탐색 ( 중요 )
-
+// 프로그래머스 풀이 (재귀함수 사용)
 function solution(numbers) {
     let visited = [];
     const set = new Set();
@@ -37,6 +37,14 @@ function isPrime(number) {
     return true;
 }
 
+console.log(solution("011"));
+
+
+
+
+
+
+// 다른 예제 - 주어진 넘버스트링으로 만들수있는 (넘버스트링길이와 같은)모든 경우의 수중 max 값을 구하라.
 // [1,2,3,...,9]
 function biggestPrime(numbers) {
     let visited = [];
@@ -68,5 +76,4 @@ function recv(numbers, visited, prev) {
     return max;
 }
 
-console.log(solution("011"));
 console.log(biggestPrime('335'));
