@@ -2,6 +2,8 @@
 
 
 ## Level 1
+* [12925 - 문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925)
+    * [file-strToInt.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strToInt.js)
 * [프로그래머스 완주하지 못한 선수 출력하기](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
     * [file-findNotParticipant.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findNotParticipant.html)
 * [42748 - k번째 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42748)
