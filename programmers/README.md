@@ -35,4 +35,5 @@
 
 ## Level 3
 * [프로그래머스 - 베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
-    * [file-bestAlbum.js, bestAlbum2.js](https://github.com/Rachel4858/algorithm/blob/master/progorammers/bestAlbum.js)
+    * [file-bestAlbum1.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/bestAlbum.js)
+    * [file-bestAlbum2.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/bestAlbum2.js)
