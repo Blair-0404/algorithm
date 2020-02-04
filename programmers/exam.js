@@ -1,4 +1,4 @@
-// 완전탐색
+// 완전탐색node
 
 function solution(answers) {
     let result = { 1: 0, 2: 0, 3: 0 };
