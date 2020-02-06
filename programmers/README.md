@@ -2,6 +2,8 @@
 
 
 ## Level 1
+* [12915 - 문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)
+    * [file-strSort.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strSort.js)
 * [12925 - 문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925)
     * [file-strToInt.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strToInt.js)
 * [프로그래머스 완주하지 못한 선수 출력하기](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
@@ -15,7 +17,8 @@
     * [file-countPYNumbers.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/countPYNumbers.js)
 * [프로그래머스 - 나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
     * [file-zeroRetOfDivision.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/zeroRetOfDivision.js)
-
+* [60057 - 카카오2020](https://programmers.co.kr/learn/courses/30/lessons/60057)
+    * [file-strCompression.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strCompression.js)
 
 ## Level 2
 * [42588 - 탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
