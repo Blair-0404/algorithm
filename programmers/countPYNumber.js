@@ -8,3 +8,20 @@
 // 문자열 s의 길이 : 50 이하의 자연수
 // 문자열 s는 알파벳으로만 이루어져 있습니다.
 
+function solution(s){
+    let result = [0,0];
+
+    for(let i = 0; i < s.length; i++) {
+        if((s[i] === 'p') || (s[i] === 'P')) {
+            result[0]+=1;
+        } else if ((s[i] === 'y') || (s[i] === 'Y')) {
+                result[1]+=1;
+            }
+        }
+
+    if(result[0] === result[1]) {
+        return true;
+    } return false;
+}
+
+console.log(solution('pPppoooyyyY'));

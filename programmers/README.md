@@ -4,8 +4,12 @@
 ## Level 1
 * [12915 - 문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)
     * [file-strSort.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strSort.js)
+* [12922 - 수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922)
+    * [file-12922waterMelon.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12922waterMelon.js)
 * [12925 - 문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925)
     * [file-strToInt.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strToInt.js)
+* [12948 - 핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
+    * [file-strToInt.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/distinguishPhoneNum.js)
 * [프로그래머스 완주하지 못한 선수 출력하기](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
     * [file-findNotParticipant.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findNotParticipant.html)
 * [42748 - k번째 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42748)
@@ -13,7 +17,7 @@
 * [42840 - 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
     * 완전탐색
     * [file-exam.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/exam.js)
-* [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
+* [12916 - 문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
     * [file-countPYNumbers.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/countPYNumbers.js)
 * [프로그래머스 - 나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
     * [file-zeroRetOfDivision.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/zeroRetOfDivision.js)
