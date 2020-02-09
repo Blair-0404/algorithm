@@ -6,6 +6,8 @@
     * [file-strSort.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strSort.js)
 * [12922 - 수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922)
     * [file-12922waterMelon.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12922waterMelon.js)
+* [12928 - 약수들의 합](https://programmers.co.kr/learn/courses/30/lessons/12928)
+    * [file-12928.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12928.js)
 * [12925 - 문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925)
     * [file-strToInt.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strToInt.js)
 * [12948 - 핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
