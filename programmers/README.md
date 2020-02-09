@@ -35,8 +35,16 @@
     * [file-camouflage.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/camouflage.js)
 * [프로그래머스 - 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
     * [file-findSamePrefix.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/findSamePrefix.js)
+* [42626 - 더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+    * 힙  
+    * [file-42626.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/42626.js)
 * [프로그래머스 - 큰수로 숫자조합 후 문자로 출력](https://programmers.co.kr/learn/courses/30/lessons/42746)
     * [file-maxNumber.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/maxNumber.js)
+* [42747 - H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
+    * 정렬
+    * [ ] 다시도전해보기
+    * [file-maxNumber.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/42747.js)
+    
 * [42839 - 소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
     * 완전탐색
     * [file-findPrime.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/findPrime.js)
