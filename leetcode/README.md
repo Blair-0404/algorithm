@@ -28,4 +28,6 @@
 * [349. Intersection of Two Arrays](https://leetcode.com/problems/reverse-linked-list/)
     * HashSet
     * [file-intersectionOfTwoArrays.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/intersectionOfTwoArrays.js)
-기
+* [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+    * 이진트
+    * [file-543.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/543.js)
