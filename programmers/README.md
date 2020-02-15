@@ -50,7 +50,7 @@
 * [42839 - 소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
     * 완전탐색
     * [file-findPrime.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/findPrime.js)
-
+    * 
 
 ## Level 3
 * [프로그래머스 - 베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
