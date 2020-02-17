@@ -14,7 +14,7 @@ const getFetch = (url, params) => { // 프라미스(객체형태)를 리턴..)
   return new Promise((resolve, reject) => { // return 으로 프라미스 객체생성 constructor는 함수(resolve, reject인자 고정)
     // 비동기함수 뭔가를 할꺼야.
     ///url = v1/id , params = { phone: '01067334000' }
-    const userData = getApiAddress(url, params); // 즉 객체형태인 data // 서버에 요청 날림
+    const userData = getApiAddress(url, params); // 즉 객체형태인 data // 서버에 요청 날려서 받음
 
     if (userData) {
       resolve(userData);
@@ -29,7 +29,7 @@ const getFetch = (url, params) => { // 프라미스(객체형태)를 리턴..)
 };
 
 
-// (프라이스 객체)실행부
+// (프라  미스 객체)실행부
 getFetch('/v1/id', {phone: '01067334000'}).then((response) => { // resolve - then
   console.log('나는 리졸브되서 완성이됐어!!', response);
 }).catch((err) => { // reject - catch
