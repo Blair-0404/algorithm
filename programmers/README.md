@@ -25,7 +25,8 @@
     * [file-zeroRetOfDivision.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/zeroRetOfDivision.js)
 * [60057 - 카카오2020](https://programmers.co.kr/learn/courses/30/lessons/60057)
     * [file-strCompression.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strCompression.js)
-
+    *
+    
 ## Level 2
 * [42588 - 탑](https://programmers.co.kr/learn/courses/30/lessons/42588)
     * 스택
