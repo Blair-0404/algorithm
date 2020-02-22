@@ -16,7 +16,7 @@ const getApiForMenuList = () => { // 서버의 역할(서버에서 오는 정보
 const getFetch = () => { // 프라미스(객체형태)를 리턴..)
   return new Promise((resolve, reject) => { // return 으로 프라미스 객체생성 constructor는 함수(resolve, reject인자 고정)
     // 비동기함수 뭔가를 할꺼야.
-    ///url = v1/id , params = { phone: '01067334000' }
+    ///url = v1/id , params = { phone: '01012344000' }
     const menuList = getApiForMenuList(); // 즉 객체형태인 data // 서버에 요청 날림
 
     if (menuList) {
