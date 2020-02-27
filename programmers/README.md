@@ -4,6 +4,9 @@
 ## Level 1
 * [12915 - 문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)
     * [file-strSort.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strSort.js)
+* [12921 - 소수찾기](https://programmers.co.kr/learn/courses/30/lessons/12921)
+    * HashSet
+    * [file-12921findPrims.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12921findPrimes.js)
 * [12922 - 수박수박수?](https://programmers.co.kr/learn/courses/30/lessons/12922)
     * [file-12922waterMelon.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12922waterMelon.js)
 * [12928 - 약수들의 합](https://programmers.co.kr/learn/courses/30/lessons/12928)
