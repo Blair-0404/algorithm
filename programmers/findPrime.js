@@ -2,32 +2,32 @@
 // 프로그래머스 풀이 (재귀함수 사용)
 function solution(numbers) {
     let visited = [];
-    const set = new Set();
+    const primeSet = new Set();
     for (let i = 0; i < numbers.length; ++i) {
         visited.push(false);
     }
 
-    recursive(numbers, visited, set, '');
+    recursive(numbers, visited, primeSet, '');
 
-    return set.size;
+    return primeSet.size;
 }
 
 // [1, 7]
-function recursive(numbers, visited, set, prev) {
+function recursive(numbers, visited, primeSet, prev) {
     for (let i = 0; i < numbers.length; ++i) {
         if (!visited[i]) {
             visited[i] = true;
             const str = prev + numbers[i];
             if (isPrime(parseInt(str))) {
-                set.add(parseInt(str));
+                primeSet.add(parseInt(str));
             }
-            recursive(numbers, visited, set, str); // '1' // 액자식구성들어가는 부분....
+            recursive(numbers, visited, primeSet, str); // '1' // 액자식구성들어가는 부분....
             visited[i] = false;
         }
     }
 }
 
-function isPrime(number) {
+function isPrime(number) { // 현재 number가 소수인지 판별해주는 함
     if (number < 2) return false;
 
     for (let i = 2; i <= Math.sqrt(number); ++i) {
@@ -76,4 +76,4 @@ function recv(numbers, visited, prev) {
     return max;
 }
 
-console.log(biggestPrime('335'));
+console.log(solution('17'));

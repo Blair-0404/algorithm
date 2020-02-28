@@ -44,13 +44,13 @@
 // }
 
 //for문으로 구현
-function solution(n) {
+function solution1(n) {
   let primeCount = 0;
 
-  for (let i = 2; i <= n; i++) {
+  for (let i = 2; i <= n; i++) { // 15
     let isPrime = true;
 
-    for (let j = 2; j <= Math.floor(Math.sqrt(i)); j++) {
+    for (let j = 2; j <= Math.floor(Math.sqrt(i)); j++) { // 3
       if (i % j === 0) {
         isPrime = false;
         break;
@@ -86,4 +86,4 @@ function solution2(num) {
 }
 
 
-console.log(solution2(17));
+console.log(solution1(15));

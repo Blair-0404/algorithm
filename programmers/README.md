@@ -25,7 +25,7 @@
 * [12916 - 문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
     * [file-countPYNumbers.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/countPYNumbers.js)
 * [프로그래머스 - 나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
-    * [file-zeroRetOfDivision.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/zeroRetOfDivision.js)
+    * [file-12910zeroRetOfDivision.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12910zeroRetOfDivision.js)
 * [60057 - 카카오2020](https://programmers.co.kr/learn/courses/30/lessons/60057)
     * [file-strCompression.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strCompression.js)
     *
@@ -54,7 +54,6 @@
 * [42839 - 소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
     * 완전탐색
     * [file-findPrime.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/findPrime.js)
-    * 
 
 ## Level 3
 * [프로그래머스 - 베스트 앨범](https://programmers.co.kr/learn/courses/30/lessons/42579)
