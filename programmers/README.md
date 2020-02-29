@@ -13,6 +13,9 @@
     * [file-12928.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12928.js)
 * [12925 - 문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925)
     * [file-strToInt.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strToInt.js)
+* [12930 - 이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930)
+    * flag 변수 생성 및 활용
+    * [file-12930strangeStr.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12930strangeStr.js)
 * [12948 - 핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
     * [file-strToInt.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/distinguishPhoneNum.js)
 * [프로그래머스 완주하지 못한 선수 출력하기](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
@@ -25,6 +28,7 @@
 * [12916 - 문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
     * [file-countPYNumbers.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/countPYNumbers.js)
 * [프로그래머스 - 나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
+    * for, filter
     * [file-12910zeroRetOfDivision.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12910zeroRetOfDivision.js)
 * [60057 - 카카오2020](https://programmers.co.kr/learn/courses/30/lessons/60057)
     * [file-strCompression.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strCompression.js)
