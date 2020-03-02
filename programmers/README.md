@@ -4,6 +4,13 @@
 ## Level 1
 * [12915 - 문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915)
     * [file-strSort.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/strSort.js)
+* [12917 - 문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917)
+    * 퀵정렬
+    * [file-12917.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12917.js)
+* [12918 - 문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918)
+    * Set이용  
+    * [file-12918.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12918.js)
+    
 * [12921 - 소수찾기](https://programmers.co.kr/learn/courses/30/lessons/12921)
     * HashSet
     * [file-12921findPrims.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12921findPrimes.js)
