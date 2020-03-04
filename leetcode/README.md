@@ -13,6 +13,8 @@
     * [file-mergeToSortedList.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/mergeToSortedList.js)
 * [67. Add Binary](https://leetcode.com/problems/add-binary/)
     * [file-addBinary.js, addBinary2.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/addBinary.js)
+* [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
+    * [file-88mergeSortedArray.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/88mergeSortedArray.js)
 * [136. Single Number](https://leetcode.com/problems/single-number/)
     * [file-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findsingleNumber.js)
 * [202. Happy Number](https://leetcode.com/problems/happy-number/)
