@@ -18,6 +18,8 @@
     * [file-88mergeSortedArray.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/88mergeSortedArray.js)
 * [136. Single Number](https://leetcode.com/problems/single-number/)
     * [file-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findsingleNumber.js)
+* [155. Min Stack](https://leetcode.com/problems/min-stack/)
+    * [file-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/155minStack.js)
 * [202. Happy Number](https://leetcode.com/problems/happy-number/)
     * [file-happyNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/happyNumber.js)
 * [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
