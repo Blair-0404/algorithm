@@ -26,6 +26,9 @@
 * [204. Count Primes](https://leetcode.com/problems/count-primes/)
     * 루트가 필요한경우 생각하기
     * [file-countPrimes.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/countPrimes.js)
+* [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+    * 재귀를 사용한 이진트리 구현
+    * [file-226InvertBinaryTree.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/226InvertBinaryTree.js)
 * [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
     * [file-validAnagram.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/validAnagram.js)
 * [349. Intersection of Two Arrays](https://leetcode.com/problems/reverse-linked-list/)

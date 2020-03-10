@@ -1,5 +1,5 @@
 // let Input = '1->2->4','1->3->4';
-//
+
  class ListNode {
      constructor(val) {
          this.val = val;

@@ -1,6 +1,3 @@
-const strA = "()[]{[]}";
-const strB = "{[]}";
-
 function validParentheses(s) {
     const bracketMap = new Map();
     bracketMap.set('(', ')');
@@ -34,4 +31,4 @@ function validParentheses(s) {
 
 
 
-console.log(validParentheses(strA));
+console.log(validParentheses("()[]{[]})"));
