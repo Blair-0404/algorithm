@@ -39,8 +39,9 @@
 * [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
     * HashSet
     * [file-intersectionOfTwoArrays.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/448.js)
-
-
 * [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
     * 이진트
     * [file-543.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/543.js)
+* [705. Design HashSet](https://leetcode.com/problems/design-hashset/)
+    * Set 디자인  
+    * [file-705.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/705.js)
