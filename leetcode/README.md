@@ -36,6 +36,8 @@
 * [349. Intersection of Two Arrays](https://leetcode.com/problems/reverse-linked-list/)
     * HashSet
     * [file-intersectionOfTwoArrays.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/intersectionOfTwoArrays.js)
+* [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+    * [file-371.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/371.js)
 * [448. Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)
     * HashSet
     * [file-intersectionOfTwoArrays.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/448.js)

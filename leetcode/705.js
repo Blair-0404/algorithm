@@ -8,8 +8,10 @@ class MyHashSet {
   }
 
   remove(val) { // val은 다 사라져야 했다.!   더 짧아질수는 없을까..
+
     let tmpCount = 0;
     let tmpIdx = 0;
+
     this.arr.sort((a, b) => {
       return a - b
     });
