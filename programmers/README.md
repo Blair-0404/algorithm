@@ -27,7 +27,9 @@
 * [프로그래머스 완주하지 못한 선수 출력하기](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
     * [file-findNotParticipant.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findNotParticipant.html)
 * [42748 - k번째 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42748)
-    * [file-kthNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/kthNumber.js)
+    * [file-kthNumber.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/kthNumber.js)
+    * [x] 20200428,
+
 * [42840 - 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
     * 완전탐색
     * [file-exam.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/exam.js)
@@ -60,8 +62,8 @@
     * [file-maxNumber.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/maxNumber.js)
 * [42747 - H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
     * 정렬
-    * [ ] 다시도전해보기
     * [file-maxNumber.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/42747.js)
+    * [ ] 20200427,
     
 * [42839 - 소수찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
     * 완전탐색
