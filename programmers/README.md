@@ -28,7 +28,7 @@
     * [file-findNotParticipant.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findNotParticipant.html)
 * [42748 - k번째 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42748)
     * [file-kthNumber.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/kthNumber.js)
-    * [x] 20200428,
+        * [x] 버블정렬, 선택정렬공부
 
 * [42840 - 모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840)
     * 완전탐색
