@@ -51,6 +51,9 @@
 * [42585 - 쇠막대기](https://programmers.co.kr/learn/courses/30/lessons/42585)
     * 스택
     * [file-ironBar.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/ironBar.js)
+* [42586 - 기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
+    * 스택
+    * [file-42586.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/42586.js)
 * [프로그래머스 - 위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
     * [file-camouflage.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/camouflage.js)
 * [프로그래머스 - 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
