@@ -1,24 +1,24 @@
 // function solution(arr) {
-//   let count = 0;
-//   let result = 0;
+//   let isMoreHeight = false;
 //
-//   for(let retNum = 0; retNum < arr.length; retNum++) {
-//     for (let i = arr.length; i > 0; i--) {
-//       if(arr[arr.length - i] > retNum) {
-//         count ++;
-//       }
-//       if(count === retNum) {
-//         result = retNum
+//   for (let i = arr.length - 1; i >= 0; i--) {
+//
+//     for (let j = i - 1; j >= 0; j--) {
+//       if (arr[j] > arr[i]) {
+//         arr[i] = j + 1;
+//         isMoreHeight = true;
+//         break;
 //       }
 //     }
+//     if(!isMoreHeight) {
+//       arr[i] = 0;
+//     }
+//     isMoreHeight = false;
+//
 //   }
 //
-//   return result;
+//   return arr;
 // }
-//
-// const arr = [17,18,19,3];
-// console.log(solution(arr));
-// retNum = 0에서 시작
-// 배열의 원소중에서 retNum이상인 원소들(=count)이 retNum개이면 return retNum!
-//    단! count > retNum이면 stop and retNum++
 
+const arr = [3,9,9,3,5,7,2];
+console.log(solution(arr));

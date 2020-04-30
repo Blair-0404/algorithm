@@ -46,6 +46,8 @@
 * [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
     * 이진트
     * [file-543.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/543.js)
+* [567. move Zeros](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/567/)
+    * [file-567.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/567.js)
 * [605. Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)
     * [file-605.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/605.js)
 * [705. Design HashSet](https://leetcode.com/problems/design-hashset/)
