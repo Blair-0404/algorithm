@@ -10,6 +10,7 @@
 * [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses)
     * [file-validParentheses.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/validParentheses.js)
     * [file-20ValidParentheses.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/20ValidParentheses.js)
+    * 20200501/
 * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
     * [file-mergeToSortedList.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/mergeToSortedList.js)
 * [67. Add Binary](https://leetcode.com/problems/add-binary/)
@@ -20,6 +21,9 @@
     * [file-88mergeSortedArray.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/88mergeSortedArray.js)
 * [136. Single Number](https://leetcode.com/problems/single-number/)
     * [file-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findsingleNumber.js)
+* [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+    * [file-125.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/125.js)
+    * 20200502/
 * [155. Min Stack](https://leetcode.com/problems/min-stack/)
     * [file-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/155minStack.js)
 * [202. Happy Number](https://leetcode.com/problems/happy-number/)
@@ -53,3 +57,5 @@
 * [705. Design HashSet](https://leetcode.com/problems/design-hashset/)
     * Set 디자인  
     * [file-705.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/705.js)
+* [879. Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/)
+    * [file-reverseStr.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseStr.js])
