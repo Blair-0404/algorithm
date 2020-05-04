@@ -1,7 +1,7 @@
 function develop(progresses, speeds) {
 
-  let days = [];
   let ret = [];
+  let days = [];
   let count = 0;
 
   progresses.forEach((val, idx) => (
@@ -10,16 +10,16 @@ function develop(progresses, speeds) {
 
   let maxDayIdx = 0;
 
-    for(let i = 0; i < days.length; i++) {
-      if(days[maxDayIdx] >= days[i]) {
-        count++;
-      } else {
-        ret.push(count);
-        maxDayIdx = i;
-        count = 1;
-      }
+  for (let i = 0; i < days.length; i++) {
+    if (days[maxDayIdx] >= days[i]) {
+      count++;
+    } else {
+      ret.push(count);
+      maxDayIdx = i;
+      count = 1;
     }
-    ret.push(count);
+  }
+  ret.push(count);
   return ret;
 }
 

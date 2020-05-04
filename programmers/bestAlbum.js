@@ -1,3 +1,4 @@
+// 1
 function makeBestAlbum(genres, plays) {
     const genreAndPlayCountMap = new Map();
     const genreAndIdxListMap = new Map();
@@ -43,6 +44,32 @@ function makeBestAlbum(genres, plays) {
     }
 
     return result;
+}
+
+
+// 2
+function solution(genres, plays) {
+    const map = new Map();
+
+    for (let i = 0; i < genres.length; ++i) {
+        if (map.has(genres[i])) {
+            const idList = map.get(genres[i]);
+            map.set(genres[i], [...idList, i]);
+        } else {
+            map.set(genres[i], [i]);
+        }
+    }
+
+    return [...map.values()].sort((aList, bList) => {
+        const aListPlaySum = aList.reduce((acc, id) => acc + plays[id], 0);
+        const bListPlaySum = bList.reduce((acc, id) => acc + plays[id], 0);
+
+        return bListPlaySum - aListPlaySum;
+    }).map((idList) => {
+        const sorted = idList.sort((aId, bId) => plays[bId] - plays[aId]);
+
+        return sorted.filter((id, idx) => idx < 2);
+    }).reduce((acc, idList) => [...acc, ...idList], []);
 }
 
 

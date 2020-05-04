@@ -55,7 +55,7 @@
     * 스택
     * [file-42586.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/42586.js)
 * [프로그래머스 - 위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
-    * [file-camouflage.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/camouflage.js)
+    * [file-camouflage.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/camouflage.js)
 * [프로그래머스 - 전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
     * [file-findSamePrefix.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/findSamePrefix.js)
 * [42626 - 더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)

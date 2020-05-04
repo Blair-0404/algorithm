@@ -57,5 +57,7 @@
 * [705. Design HashSet](https://leetcode.com/problems/design-hashset/)
     * Set 디자인  
     * [file-705.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/705.js)
+* [727. Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/)
+    * [file-727.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/727.js)
 * [879. Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/)
     * [file-reverseStr.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseStr.js])
