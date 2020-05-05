@@ -1,39 +1,33 @@
-const givenNums = [3, 2, 4, 5, 51];
-const target = 6;
+// Given nums = [2, 7, 11, 15], target = 9,
+// Because nums[0] + nums[1] = 2 + 7 = 9,
+// return [0, 1].
 
-function findTwoSum(givenNums,target) {
-    let givenNumsMap = new Map();
-    //  givenNums.forEach((number, idx) => {
-    //     givenNumsMap.set(number, idx);
-    // });
-
-    for(let i = 0; i < givenNums.length; i++) {
-        let tmp = target - givenNums[i];
-        if(givenNumsMap.has(tmp)) {
-            return [givenNumsMap.get(tmp), i];
+// 배열 돌면서 구현 (시간효율도가 낮음)
+function solution(nums,target) {
+    for(let j = 0; j < nums.length; j++) {
+        for(let k = j + 1; k < nums.length; k++) {
+            if(nums[j] + nums[k] === target) {
+                return [j,k]
+            }
         }
-        givenNumsMap.set(givenNums[i], i);
     }
 }
 
-console.log(findTwoSum(givenNums,target));
+// 해시맵으로 구현
+function solution2() {
+    let map = new Map();
 
+    for(let i = 0; i < nums.length; i++) {
+        if(map.has(target - nums[i])) {
+            return [map.get(target - nums[i]), i]
 
+        } else {
+            map.set(nums[i], i)
+        }
+    }
+    return []
+}
+const nums = [-3, 4, 2, 90];
+const target = 0;
 
-//
-// function findTwoSum(givenNums,target) {
-//     let result = [];
-//     for (let i = 0; i < givenNums.length - 1; i++) {
-//         for(let j = i + 1; j < givenNums.length; j++) {
-//             if((givenNums[i] + givenNums[j]) === target) {
-//                 result.push(i,j);
-//                 return result;
-//             }
-//         }
-//     }
-// }
-//
-//
-// const givenNums = [2, 7, 50, 15, 50];
-// const target = 100;
-// console.log(findTwoSum(givenNums,target));
+console.log(solution2(nums,target));

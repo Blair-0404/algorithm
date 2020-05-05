@@ -1,34 +1,33 @@
-function solution(s) {
-  const bracketMap = new Map();
-  bracketMap.set('(',')');
-  bracketMap.set('[',']');
-  bracketMap.set('{','}');
+// Given nums = [2, 7, 11, 15], target = 9,
+// Because nums[0] + nums[1] = 2 + 7 = 9,
+// return [0, 1].
 
-  let tmpArr = [];
-
-  for(let i = 0; i < s.length; i++) {
-
-    if((s[i]==='(') || (s[i]==='[') || (s[i]==='{')) {
-      tmpArr.push(s[i]);
-    } else {
-      if(bracketMap.get(tmpArr[tmpArr.length - 1]) === s[i]) {
-        tmpArr.pop()
-      } else {
-        return false
+// 배열 돌면서 구현 (시간효율도가 낮음)
+function solution(nums,target) {
+  for(let j = 0; j < nums.length; j++) {
+    for(let k = j + 1; k < nums.length; k++) {
+      if(nums[j] + nums[k] === target) {
+        return [j,k]
       }
     }
   }
-  if(tmpArr.length <= 0) {
-    return true
-  } else {
-    return false
-  }
 }
 
+// 해시맵으로 구현
+function solution2() {
+  let map = new Map();
 
-console.log(solution('}')); // f
-console.log(solution('(])')); // f
-console.log(solution('[])')); // f
-console.log(solution('[{}]')); // t
-console.log(solution('(){}[]')); // t
-console.log(solution('')); // t
+  for(let i = 0; i < nums.length; i++) {
+    if(map.has(target - nums[i])) {
+      return [map.get(target - nums[i]), i]
+
+    } else {
+      map.set(nums[i], i)
+    }
+  }
+  return []
+}
+const nums = [-3, 4, 2, 90];
+const target = 0;
+
+console.log(solution2(nums,target));

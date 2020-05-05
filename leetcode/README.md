@@ -3,6 +3,7 @@
 ## easy
 * [1. TwoSum](https://leetcode.com/problems/two-sum/submissions/)
     * [file-twoSum.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/twoSum.js)
+    * 20200505
 * [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
     * 내장되어있는 함수 이용해서 단순 역변경, 반복문 돌면서 뒤에있는 00은 거르면서 역변경, 뒤에있는 00을 애초에 제거하고 역변경
     * [file-(reverseInt.html)](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseInt.html)
@@ -18,7 +19,8 @@
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs//)
     * [file-70.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/70.js)
 * [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
-    * [file-88mergeSortedArray.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/88mergeSortedArray.js)
+    * [file-mergeSortedArray.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/mergeSortedArray.js)
+    * 20200505 / 
 * [136. Single Number](https://leetcode.com/problems/single-number/)
     * [file-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/findsingleNumber.js)
 * [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
