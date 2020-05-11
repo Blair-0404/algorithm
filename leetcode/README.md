@@ -3,7 +3,7 @@
 ## easy
 * [1. TwoSum](https://leetcode.com/problems/two-sum/submissions/)
     * [file-twoSum.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/twoSum.js)
-    * 20200505
+    * 20200505/20200511
 * [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
     * 내장되어있는 함수 이용해서 단순 역변경, 반복문 돌면서 뒤에있는 00은 거르면서 역변경, 뒤에있는 00을 애초에 제거하고 역변경
     * [file-(reverseInt.html)](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseInt.html)
@@ -14,6 +14,12 @@
     * 20200501/
 * [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
     * [file-mergeToSortedList.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/mergeToSortedList.js)
+* [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+    * [file-26.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/26.js)
+* [27. Remove Element](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+    * [file-27removeElement.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/27removeElement.js)
+* [66. Plus one](https://leetcode.com/problems/plus-one/)
+    * [file-plusOne.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/plusOne.js)
 * [67. Add Binary](https://leetcode.com/problems/add-binary/)
     * [file-addBinary.js, addBinary2.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/addBinary.js)
 * [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs//)
@@ -28,6 +34,8 @@
     * 20200502/
 * [155. Min Stack](https://leetcode.com/problems/min-stack/)
     * [file-findSingleNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/155minStack.js)
+* [189. Rotate Array](https://leetcode.com/problems/rotate-array/)
+    * [file-189rotateArray.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/189rotateArray.js)
 * [202. Happy Number](https://leetcode.com/problems/happy-number/)
     * [file-happyNumber.js](https://github.com/Rachel4858/algorithm/blob/master/codesquad/happyNumber.js)
 * [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
@@ -59,7 +67,5 @@
 * [705. Design HashSet](https://leetcode.com/problems/design-hashset/)
     * Set 디자인  
     * [file-705.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/705.js)
-* [727. Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/)
-    * [file-727.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/727.js)
 * [879. Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/)
     * [file-reverseStr.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseStr.js])

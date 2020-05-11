@@ -1,43 +1,18 @@
+// 문제를 이해하는것이 매우 중요했다..!
+// 단순히 넘버가 몇개있는지를 체크하는것이 아니라 배열을 새롭게 리턴시키는게 포인트였다.!
+// Given nums = [0,0,1,1,1,2,2,3,3,4] return 5(길이) nums = [0,1,2,3,4,2,2,3,3,4]
+
 function solution(nums) {
-  let count = 1;
-  let tmp = 0;
 
-  for(let i = 1; i < nums.length ; i++) {
+  let i = 0;
 
-    if(nums[tmp] !== nums[i]) {
-      count ++;
-      tmp++;
-    } else {
-      tmp++;
+  for(let k = 0; k < nums.length; k++) {
+    if(nums[i] !== nums[k]) {
+      i++;
+      nums[i] = nums[k];
     }
   }
-
-  return count;
-}
-
-function solution1(nums) {
-  let ret = [];
-
-  for(let i = 0; i < nums.length ; i++) {
-    if(ret[ret.length - 1] !== nums[i]) {
-      ret.push(nums[i]);
-    }
-  }
-
-  return ret.length;
-}
-
-function solution2(nums) {
-  let hashSet = new Set();
-
-  for(let i = 0; i < nums.length; i++) {
-    if(!hashSet.has(nums[i])) {
-      hashSet.add(nums[i])
-      // console.log(hashSet)
-    }
-  }
-  console.log(hashSet);
-  return hashSet.size
+  return ++i
 }
 
 const nums1 =[1,1,2,3,3,4,5,6,6,6,6,7,7,7,7,7,9];

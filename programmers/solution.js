@@ -1,148 +1,66 @@
-function betAlbum(genres, plays) {
 
-  const totalPlaysOfGenre = new Map();
-  const idxListOfGenre = new Map();
-  let resultArr = [];
+function solution(numbers, hand) {
+  const lSet = new Set([1, 4, 7]);
+  const rSet = new Set([3, 6, 9]);
+  let lPoint = '*';
+  let rPoint = '#';
+  let result = '';
 
-  for (let i = 0; i < genres.length; i++) {
-    if (!totalPlaysOfGenre.has(genres[i])) {
-      totalPlaysOfGenre.set(genres[i], plays[i])
-    } else {
-      let addPlays = totalPlaysOfGenre.get(genres[i]) + plays[i];
-      totalPlaysOfGenre.set(genres[i], addPlays)
+  for (let i = 0; i < numbers.length; i++) {
+    if(numbers[i] === 0) {
+      zeroDistance(lPoint,rPoint)
     }
 
-    if (!idxListOfGenre.has(genres[i])) {
-      idxListOfGenre.set(genres[i], [i]);
-    } else {
-      let tmpValue = idxListOfGenre.get(genres[i]);
-      tmpValue.push(i);
-      idxListOfGenre.set(genres[i], tmpValue)
-    }
-  }
-
-  let sortedTotalPlaysOfGenre = Array.from(totalPlaysOfGenre).sort((a, b) => {
-    return b[1] - a[1]
-  });
-
-  for (let i = 0; i < sortedTotalPlaysOfGenre.length; i++) {
-    let tmpIdx = idxListOfGenre.get(sortedTotalPlaysOfGenre[i][0]);
-    let ARR = [];
-    for (let j = 0; j < tmpIdx.length; j++) {
-      ARR.push([...[tmpIdx[j], plays[tmpIdx[j]]]])
-    }
-    ARR.sort((a, b) => (b[1] - a[1]));
-    for (let k = 0; k < 2; k++) {
-      resultArr.push(ARR[k][0])
-    }
-  }
-
-  return resultArr
-}
-
-
-
-function str2(str) {
-  let strMap = new Map();
-
-  for (let j = 0; j < str.length; j++) {
-    strMap.set(str[j], 0);
-  }
-
-  for (let i = 0; i < str.length; i++) {
-    let tmp = strMap.get(str[i]) + 1;
-    strMap.set(str[i], tmp)
-  }
-
-  let Arr = Array.from(strMap);
-
-  for (let i = 0; i < Arr.length; i++) {
-    if (Arr[i][1] === 1) {
-      return Arr[i][0]
-    }
-  }
-}
-
-// console.log(str2('total'));
-
-function remove(s, del) {
-  let ret = [];
-  const sArr = s.split('');
-  const sSet = new Set(del);
-
-  for (let i = 0; i < sArr.length; i++) {
-    if (!sSet.has(sArr[i])) {
-      ret.push(sArr[i])
-    }
-  }
-
-  return ret
-}
-//
-// const s = 'appleoooobbbc';
-// const del = 'peob';
-// console.log(remove(s, del));
-
-
-function test(num) {
-
-  // let sqrt = Math.sqrt(num);
-  // if(num === (sqrt*sqrt)) {
-  //   return sqrt;
-  // }
-
-  for(let i = 0; i < 500; i++) {
-    if(num === 1) {
-      return i
-    } else {
-      if(num % 2 === 0) {
-        num = num / 2
-      } else if(num % 2 === 1) {
-        num = (num*3) + 1;
+    if (lSet.has(numbers[i])) {
+      result += 'L';
+      lPoint = numbers[i]
+    } else if (rSet.has(numbers[i])) {
+        result += "R";
+        rPoint = numbers[i]
+      } else {
+        if(calcDistance(lPoint,numbers[i]) < calcDistance(rPoint, numbers[i])) {
+          result += 'L';
+          lPoint = numbers[i]
+        } else if(calcDistance(rPoint,numbers[i]) < calcDistance(lPoint, numbers[i])) {
+          result += 'R';
+          rPoint = numbers[i]
+        } else {
+          result += hand[0].toUpperCase();
+        }
       }
     }
-  }
 
-  return -1
-}
-// console.log(test(626331))
-
-// const genres = ['classic', 'pop', 'classic', 'classic', 'pop'];
-// const plays = [500, 600, 150, 800, 2500];
-// console.log(solution2(genres, plays));
-
-function searchIndexFirstNonRepeated (s) {
-  let result = -1;
-
-  if(s.length === 0) {
-    return -1
-  }
-
-  const sMap = new Map();
-
-  for(let i = 0; i < s.length; i++) {
-    if(!sMap.has(s[i])) {
-      sMap.set(s[i], 0);
-    } else {
-      let tmp = sMap.get(s[i]) + 1;
-      sMap.set(s[i], tmp)
-    }
-  }
-
-  for(let j = 0; j < s.length; j++) {
-    if(sMap.get(s[j]) === 0) {
-      result = j
-      break;
-    }
-  }
-
-  return result
+  return result;
 }
 
-const s1 = "leetcode";
-const s2 = "";
-const s3 = "cc";
+const calcDistance = (hand, target) => {
+  if (Math.abs(target - hand) % 2 === 0) {
+    return 2;
+  } else if (Math.abs(target - hand) === 1 || Math.abs(target - hand) === 3) {
+    return 1;
+  } else if (Math.abs(target - hand) === 5 || Math.abs(target - hand) === 7) {
+    return 3;
+  }
+};
 
-console.log(searchIndexFirstNonRepeated(s1));
-console.log(searchIndexFirstNonRepeated(s2));
-console.log(searchIndexFirstNonRepeated(s3));
+const zeroDistance = (lPoint,rPoint) => {
+    if(Math.abs(lPoint - rPoint) === 2) {
+      result += hand[0].toUpperCase();
+    }
+    else {
+      if (calcDistance(lPoint,numbers[i]) > calcDistance(rPoint, numbers[i]))
+    } {
+      result += 'L';
+      lPoint = numbers[i]
+    }  else if(calcDistance(rPoint,numbers[i]) > calcDistance(lPoint, numbers[i])) {
+      result += 'R';
+      rPoint = numbers[i]
+    }
+    }
+
+}
+
+const numbers = [1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5]; // result = "LRLLLRLLRRL"
+const hand = "right";
+
+console.log(solution(numbers, hand));

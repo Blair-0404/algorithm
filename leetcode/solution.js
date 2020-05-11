@@ -1,33 +1,17 @@
-// Given nums = [2, 7, 11, 15], target = 9,
-// Because nums[0] + nums[1] = 2 + 7 = 9,
-// return [0, 1].
+// Given nums = [0,0,1,1,1,2,2,3,3,4] return 5
 
-// 배열 돌면서 구현 (시간효율도가 낮음)
-function solution(nums,target) {
-  for(let j = 0; j < nums.length; j++) {
-    for(let k = j + 1; k < nums.length; k++) {
-      if(nums[j] + nums[k] === target) {
-        return [j,k]
-      }
+function solution(nums) {
+
+  let i = 0;
+
+  for(let k = 0; k < nums.length; k++) {
+    if(nums[i] !== nums[k]) {
+      i++;
+      nums[i] = nums[k];
     }
   }
+  return ++i
 }
 
-// 해시맵으로 구현
-function solution2() {
-  let map = new Map();
-
-  for(let i = 0; i < nums.length; i++) {
-    if(map.has(target - nums[i])) {
-      return [map.get(target - nums[i]), i]
-
-    } else {
-      map.set(nums[i], i)
-    }
-  }
-  return []
-}
-const nums = [-3, 4, 2, 90];
-const target = 0;
-
-console.log(solution2(nums,target));
+const nums = [0,0,1,1,2,3];
+console.log(solution(nums));
