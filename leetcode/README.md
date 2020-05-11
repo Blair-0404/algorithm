@@ -69,3 +69,12 @@
     * [file-705.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/705.js)
 * [879. Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/)
     * [file-reverseStr.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseStr.js])
+
+
+## amazon ##
+* [TwoSum](https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/508/)
+    * [file-twoSum.js]( )
+    * 20200511
+* [Longest Substring Without Repeating Characters](https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2961//)
+    * [file-twoSum.js]( )
+    * 20200511

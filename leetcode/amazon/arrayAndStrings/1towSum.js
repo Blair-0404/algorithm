@@ -1,9 +1,5 @@
-// Given nums = [2, 7, 11, 15], target = 9,
-// Because nums[0] + nums[1] = 2 + 7 = 9,
-// return [0, 1].
-
 // 배열 돌면서 구현 (시간효율도가 낮음)
-function solution3(nums, target) {
+function solution1(nums, target) {
   let result = [];
 
   for (let tmpIdx = 0; tmpIdx < nums.length; tmpIdx++) {
@@ -35,8 +31,3 @@ function solution2() {
   }
   return []
 }
-
-
-const numbers = [-3, 4, 3, 90];
-const target = 7;
-console.log(solution(numbers, target));
