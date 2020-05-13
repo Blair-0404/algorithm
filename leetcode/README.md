@@ -70,11 +70,15 @@
 * [879. Reverse String](https://leetcode.com/explore/featured/card/top-interview-questions-easy/127/strings/879/)
     * [file-reverseStr.js](https://github.com/Rachel4858/algorithm/blob/master/leetcode/reverseStr.js])
 
-
-## amazon ##
+*** 
+## amazon
+### Array and Sctrings 
 * [TwoSum](https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/508/)
-    * [file-twoSum.js]( )
+    * [solution](https://github.com/Rachel4858/algorithm/blob/master/leetcode/amazon/arrayAndStrings/1twoSum.js)
     * 20200511
-* [Longest Substring Without Repeating Characters](https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2961//)
-    * [file-twoSum.js]( )
+* [Longest Substring Without Repeating Characters](https://github.com/Rachel4858/algorithm/blob/master/leetcode/amazon/arrayAndStrings/2longestSubstring.js)
+    * [solution](https://github.com/Rachel4858/algorithm/blob/master/leetcode/amazon/arrayAndStrings/2longestSubstring.js)
+    * 20200511
+* [String to Integer (atoi)](https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2962/)
+    * [solution](https://github.com/Rachel4858/algorithm/blob/master/leetcode/amazon/arrayAndStrings/3stringToInteger.js)
     * 20200511
