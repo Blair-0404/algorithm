@@ -22,3 +22,4 @@ function solution(l1, l2) {
 
   return head.next;
 }
+
