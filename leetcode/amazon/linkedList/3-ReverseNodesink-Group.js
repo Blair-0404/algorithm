@@ -38,36 +38,36 @@ function reverse(curr, length) { // 1<-2<-3->4->5로 뒤집는 거라면 1노드
 // }
 
 
-const reverseKGroup = function(head, k) {
-  const root = new ListNode(-1);
-  root.next = head;
-
-  //
-  let i = 0;
-
-  while(head) {
-    if(i % k === 0) {
-      //
-    } else {
-      head = head.next;
-    }
-    i++;
-  }
-
-  return root.next;
-};
-
-const reverse = function(curr, count) {
-  const end = curr;
-  let prev = null;
-
-  while(count > 0) {
-    const next = curr.next;
-    curr.next = prev;
-
-    prev = curr;
-    curr = next;
-    count--;
-  }
-  return end
-}
+// const reverseKGroup = function(head, k) {
+//   const root = new ListNode(-1);
+//   root.next = head;
+//
+//   //
+//   let i = 0;
+//
+//   while(head) {
+//     if(i % k === 0) {
+//       //
+//     } else {
+//       head = head.next;
+//     }
+//     i++;
+//   }
+//
+//   return root.next;
+// };
+//
+// const reverse = function(curr, count) {
+//   const end = curr;
+//   let prev = null;
+//
+//   while(count > 0) {
+//     const next = curr.next;
+//     curr.next = prev;
+//
+//     prev = curr;
+//     curr = next;
+//     count--;
+//   }
+//   return end
+// }
