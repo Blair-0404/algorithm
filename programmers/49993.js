@@ -3,45 +3,35 @@
 
 function solution(skill, skill_trees) {
   let result = 0;
+  const skillSet = new Set(skill.split(''));
 
-  const skillSet = skill.split('').reduce((acc, val) => {
-    acc.add(val);
-    return acc
-  }, new Set());
+  for (let i = 0; i < skill_trees.length; i++) {
+    const tmpArr = skill_trees[i].split('');
+    const tmpSet = new Set();
 
-  skill_trees.forEach((val) => {
-    let tmpArr = val.split('');
-    let curIdx = 0;
-    let tmpSet = new Set();
-
-    while(curIdx < tmpArr.length) {
-      if(skillSet.has(tmpArr[curIdx])) {
-        tmpSet.add(tmpArr[curIdx]);
-        curIdx++;
-      } else {
-        curIdx++;
+    for (let j = 0; j < tmpArr.length; j++) {
+      if (skillSet.has(tmpArr[j]) && !tmpSet.has(tmpArr[j])) {
+        tmpSet.add(tmpArr[j]);
       }
     }
 
-    let tmp =  Array.from(tmpSet);
-    let isTrue = false;
+    let curIdx = 0;
+    let isSame = true;
 
-    for(let i = 0; i < tmp.length; i++) {
-      if(Array.from(tmpSet)[i] === Array.from(skillSet)[i]) {
-        isTrue = true;
-      } else {
-        isTrue = false;
+    while (curIdx < tmpSet.size) {
+      if (Array.from(skillSet)[curIdx] !== Array.from(tmpSet)[curIdx]) {
+        isSame = false;
         break;
       }
+      curIdx++;
     }
 
-    if(isTrue) {
+    if (isSame) {
       result++;
     }
-
-  });
+  }
 
   return result;
 }
 
-console.log(solution("CBD", ["BACDE", "CBADF", "AECB", "BDA"])); // 2
+console.log(solution("CBD", ["BACDE", "CBADF", "AECB", "CBA", "CCDDD"])); // 3
