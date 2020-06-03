@@ -35,7 +35,7 @@ function reverse(curr, length) { // 1<-2<-3->4->5로 뒤집는 거라면 1노드
   }
   return [prev, tail]; // 결과는 prev = 화살표 바꾸기가 끝난 노드 tail = 인풋의 첫인자(시작노드)
                        // 즉 함수의 첫인자가 이함수의 리턴값 tail이 된다.
-// }
+}
 
 
 // const reverseKGroup = function(head, k) {
