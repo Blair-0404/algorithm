@@ -80,5 +80,7 @@
     
     
 ## Summer/Winter Coding(~2018)
-* [스킬트](https://programmers.co.kr/learn/courses/30/lessons/49993)
-    * [file-bestAlbum1.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/49993.js)
+* [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
+    * [file-49993.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/49993.js)
+* [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
+    * [file-12982.js](https://github.com/Rachel4858/algorithm/blob/master/programmers/12982.js)
