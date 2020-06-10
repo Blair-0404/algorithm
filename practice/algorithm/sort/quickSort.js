@@ -39,7 +39,7 @@ function quickSort(array) {
   return quickSort(left).concat(pivot, quickSort(right));
 }
 
-console.log(quickSort([5, 3, 7, 1, 9]));
+// console.log(quickSort([5, 3, 7, 1, 9]));
 
 
 // swap으로 구현
@@ -55,14 +55,14 @@ function quickSort(array, left = 0, right = array.length - 1) {
   quickSort(array, partition, right);
 
   function divide(array, left, right, pivot) {
-    while (left <= right) {
-      while (array[left] < pivot) {
+    while (left <= right) { // 왼쪽이 오른쪽보다 작거나 같을때까지만 반복
+      while (array[left] < pivot) { // 왼쪽의 원소가 피벗보다 작으면 왼쪽++
         left++;
       }
-      while (array[right] > pivot) {
+      while (array[right] > pivot) { // 오른쪽원소작 피벗보다 크면 오른쪽--
         right--;
       }
-      if (left <= right) {
+      if (left <= right) { // 현재 왼쪽 오른쪽 자리 바꾸기
         let swap = array[left];
         array[left] = array[right];
         array[right] = swap;
@@ -77,41 +77,43 @@ function quickSort(array, left = 0, right = array.length - 1) {
 }
 
 
-
-
 // 실패로직
-function solution(arr) {
+function solution(arr,low = 0, high = arr.length - 1) {
 
-  let pivot = 0; // 피벗은 첫 원
-  let low = pivot + 1;
-  let high = arr.length - 1;
+  // thilow = 0;
+  // high = arr.length - 1;
+  let middle = Math.floor((low + high) / 2); // 피벗은 가운데
+  let pivot = arr[middle];
+  let partition = divided(arr, low, high, pivot);
+  solution(arr, low, partition - 1);
+  solution(arr, partition, high);
 
-  while (low <= high) { // 엇갈리기 전까지만 반복
-    while (arr[low] <= arr[pivot]) { // 피봇보다 큰 값을 만날때까지 low++
-      low++;
+  function divided(arr, low, high, pivot) {
+    while (low <= high) { // 엇갈리기 전까지만 반복
+      while (arr[low] <= pivot) { // 피봇보다 큰 값을 만날때까지 low++
+        low++;
+      }
+
+      while ((arr[high] > pivot)) { // 피봇보다 작은 값을 만날떄까지 high--
+        high--;
+      }
+
+      if (low <= high) {
+        let tmp = arr[low];
+        arr[low] = arr[high];
+        arr[high] = tmp;
+        low++;
+        high--;
+      }
     }
 
-    while ((arr[high] >= arr[pivot]) && (high > pivot)) { // 피봇보다 작은 값을 만날떄까지 high--
-      high--;
-    }
+    return low;
   }
-
-  if (low > high) {
-    let tmp = arr[pivot];
-    arr[pivot] = arr[high];
-    arr[high] = arr[tmp];
-  } else {
-    let tmp = arr[low];
-    arr[low] = arr[high];
-    arr[high] = arr[tmp];
-  }
-
-  solution(arr)
 
   return arr
 }
 
-console.log(solution([5, 3, 7, 1, 9]));
+console.log(quickSort([5, 3, 7, 1, 9]));
 // console.log(solution([3, 9, 4, 7, 0, 1, 5, 8, 6, 2]))
 // console.log(solution([0, 50, 6, 3, 5, 2, 1, 2]))
 

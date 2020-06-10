@@ -1,153 +1,41 @@
-
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Insert title here</title>
-  <style>
-    button {
-      height: 40px;
-    }
-    #money > button {
-      width: 60px;
-      height: 40px;
-    }
-    #calc {
-      height: 40px;
-      text-align: right;
-    }
-    #menu > button {
-      width: 80px;
-      height: 60px;
-    }
-    #screen {
-      width: 235px;
-      border: 1px soild gray;
-      text-align: right;
-    }
-    #spend {
-      height: 40px;
-      text-align: right;
-    }
-    #change {
-      height: 40px;
-      text-align: right;
-    }
-  </style>
-  <script>
-
-    var inputSum = 0;    // 투입액 합계
-    var productSum = 0;    // 상품 합계
-    var change = 0;        // 거스름돈
-
-    var obj = function(name, count, price){    // 상품 Object
-      this.name = name;
-      this.count = count;
-      this.price = price;
-    };
-
-    // obj의 배열이더라도 type 은 var다
-    var objArr = [];    // 상품들의 배열
-
-    /* 돈 투입 */
-    function func1(btn){
-      var f1 = document.querySelector('#calc');
-      inputSum += Number(btn.innerHTML);
-      f1.setAttribute('value', inputSum);
-    };
-
-    /* 스크린 출력 */
-    function printScreen(name){    // 출력할 상품의 이름을 넘김
-      var sc = document.querySelector('#screen');
-      var str='';
-      for( var i in objArr ){    // 상품 배열 중에서
-        if(objArr[i].name==name){    // 선택된 이름만 출력
-          // 상품 정보를 담은 텍스트 생성
-          var text = document.createTextNode(objArr[i].name+' '+objArr[i].count+' '+objArr[i].price);
-          // h6 태그가 있으면(=기존 상품의 정보가 있으면) 만들지 않고, 없으면 만듦
-          if( document.getElementById(name) ){    // 기존 상품을 담은 h6 이 있으면
-            var h = document.getElementById(name);    // 기존 상품을 담은 h6 태그를
-            sc.removeChild(h);                        // 삭제한다
-          }
-          var h = document.createElement('h6');    // 상품 정보를 담을 h6 태그를 새로 만든다
-          h.setAttribute("id", name);    // h6 태그에 상품 이름으로 id부여 -> 다시 찾기 위함
-
-          h.appendChild(text);    // 만든 태그에 상품 정보 텍스트 넣는다
-        }
-      }
-      sc.appendChild(h);    // 출력할 부분에 태그 넣는다
-      return;
-    }
-
-    /* 지출액 계산 */
-    function func2(x){    // x: 선택된 button
-      var btn = x.querySelector('span');    // span은 금액 부분을 담고있다
-      var f2 = document.querySelector('#spend');    // 지출 총액을 출력할 부분
-      productSum += Number(btn.innerHTML);    // 금액 부분만 빼냄
-      f2.setAttribute('value', productSum);    // 지출 총액 출력
-
-      var str = x.innerHTML;    // 상품 설명
-      var name = str.substring(0, str.indexOf('<'));    // 상품 설명에서 이름만 추출
-      var price = Number(btn.innerHTML);    // 금액 부분
-
-      if(objArr.length==0){    // 상품을 담은 배열이 존재하지 않는다면
-        objArr.push(new obj(name, 1, price));    // 새로 넣는다
-        printScreen(name); return;    // 출력 함수 호출
-      }
-      else{                        // 상품을 담은 배열이 있다면
-        for(var i in objArr){    // 배열에서
-          if(objArr[i].name == name){    // 선택한 상품이 배열에 존재하는지 확인
-            objArr[i].count += 1;    // 있으면 갯수와 가격만 올림
-            objArr[i].price += price;
-            printScreen(name); return;    // 출력 함수 호출
-          }
-        }
-        objArr.push(new obj(name, 1, price));    // 선택한 상품이 배열에 없다면 새로 넣음
-        printScreen(name);    // 출력 함수 호출
-      }
-
-    };
-
-    /* 거스름 계산 */
-    function calc(){
-      var f = document.querySelector('#change');
-      change = inputSum-productSum;    // 투입액-상품액
-      f.setAttribute('value', change);
-    };
-
-    /* 상품 삭제 */
-
-  </script>
+  <title>Document</title>
 </head>
 <body>
 
-<div id="money">
-  <button onclick="func1(this)">100</button><button onclick="func1(this)">500</button>
-  <button onclick="func1(this)">1000</button><button onclick="func1(this)">10000</button><br>
+<div class="one"> 원
+  <div class="two">투
+    <div class="three">쓰리
+    </div>
+  </div>
 </div>
 
-투입액<input id="calc" type="text" name="result" value="">
+<script>
 
-<div id="menu">
-  <button onclick="func2(this)">소주<br><span>4500</span></button>
-  <button onclick="func2(this)">맥주<br><span>4500</span></button>
-  <button onclick="func2(this)">매화수<br><span>5500</span></button><br>
-  <button onclick="func2(this)">청하<br><span>5500</span></button>
-  <button onclick="func2(this)">막걸리<br><span>5000</span></button>
-  <button onclick="func2(this)">복분자<br><span>7000</span></button>
-</div>
+  function logEvent(event) {
+    // event.stopPropagation(); // 이벤트 전파 막기 위해 stopPropagation() 웹 API사용
+    console.log(event.currentTarget.className);
+  }
 
-<div id="screen"></div>
-<br>
-지출액<input id="spend" type="text" value="">
-<button onclick="calc()">계산</button>
-<br>
-거스름<input id="change" type="text" value="">
+  // 이벤트 버블링
+  var divs = document.querySelectorAll('div');
+  divs.forEach(function (div) {
+    div.addEventListener('click', logEvent);
+  });
+
+  // 이벤트 캡처링
+  var divs = document.querySelectorAll('div');
+  divs.forEach(function (div) {
+    div.addEventListener('click', logEvent, {
+      capture: true // default 값은 false입니다.
+    });
+  });
+</script>
 </body>
 </html>
-[출처] 160205 자바스크립트로 자판기 만들기|작성자 락영찌
-
