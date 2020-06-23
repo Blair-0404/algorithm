@@ -82,3 +82,9 @@
 * [String to Integer (atoi)](https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/2962/)
     * [solution](https://github.com/Rachel4858/algorithm/blob/master/leetcode/amazon/arrayAndStrings/3stringToInteger.js)
     * 20200511
+
+## Top Interview Questions - Easy Collection
+### Array
+* [RemoveDuplicatesFromSortedArray](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+    * [solution](https://github.com/Rachel4858/algorithm/blob/master/leetcode/TopInterviewQuestions/Array/RemoveDuplicatesFromSortedArray.js)
+    * 20200623
