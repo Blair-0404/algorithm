@@ -87,4 +87,5 @@
 ### Array
 * [RemoveDuplicatesFromSortedArray](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
     * [solution](https://github.com/Rachel4858/algorithm/blob/master/leetcode/TopInterviewQuestions/Array/RemoveDuplicatesFromSortedArray.js)
-    * 20200623
+* [RorateArray](https://leetcode.com/explore/featured/card/top-interview-questions-easy/92/array/646/)
+    * [solution](https://github.com/Rachel4858/algorithm/blob/master/leetcode/TopInterviewQuestions/Array/RotateArray.js)
